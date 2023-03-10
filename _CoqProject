@@ -1,0 +1,3 @@
+-R src Foo
+src/Hello.v
+src/HelloSpec.v

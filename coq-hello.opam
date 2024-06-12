@@ -1,0 +1,16 @@
+opam-version: "2.0"
+name: "coq-hello"
+version: "0.1"
+synopsis: "Sample coq templete."
+description: """
+Longer description.
+"""
+maintainer: "Yoshihiro Imai <y.imai@proof-ninja.co.jp>"
+authors: "Yoshihiro Imai <y.imai@proof-ninja.co.jp>"
+license: "MIT"
+depends: [ "ocaml" "ocamlfind" ]
+build: [
+  ["./configure.sh"]
+  [make]
+]
+install: [make "install"]
